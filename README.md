@@ -4,3 +4,4 @@
 
 #Student names: Fajer Alamro , Aljawharah Alsobaie, Rama Alomair, Mashael Alammar
 
+#project motivation: 
