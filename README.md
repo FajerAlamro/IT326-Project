@@ -1,6 +1,6 @@
 HeartAttack_Project
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-#Lab: 71162, group number: 4
+#Lab: 71162 (Wednesday 2-4), group number: 4
 
 #Student names: Fajer Alamro , Aljawharah Alsobaie, Rama Alomair, Mashael Alammar, Layal Alghamdi.
 
