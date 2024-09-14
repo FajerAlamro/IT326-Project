@@ -1,4 +1,4 @@
-Patient ID,Age,Sex,Cholesterol,Blood Pressure,Heart Rate,Diabetes,Family History,Smoking,Diet,Continent,Heart Attack Risk
+Patient ID,Age,Sex, Cholesterol,Blood Pressure,Heart Rate,Diabetes,Family History,Smoking,Diet,Continent,Heart Attack Risk
 BMW7812,67,Male,208,158/88,72,0,0,1,Average,South America,0
 CZE1114,21,Male,389,165/93,98,1,1,1,Unhealthy,North America,0
 BNI9906,21,Female,324,174/99,72,1,0,0,Healthy,Europe,1
