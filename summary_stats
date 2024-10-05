@@ -1,0 +1,19 @@
+using the summary_stats() function, we observed several points from these summary statistics, such as:
+
+Age: There is significant variability in ages, ranging from 18 to 90 years, with an average of 53.75 years. This indicates that the risk of a heart attack is spread across individuals within a wide age range.
+
+Cholesterol: The values vary significantly, with a maximum of 400 and a minimum of 120. The mean is 260.71 which is slightly higher than the median 257 (slight skwe in distribution), and a standard deviation of 80.67, which indicates considerable variability in cholesterol levels                 
+
+Heart Rate: Heart Rate values range from 40 bpm to 110 bpm which indiactes a wide range, with a mean of 74.9 bpm, which is within the normal heart rate range, and a median of 75 that is very close to the mean, suggesting that the heart rate distribution is relatively symmetrical , and with a standard deviation of 20.36 which indicates variability in heart rates among individuals.
+
+Diabetes: The values are binary, limited to 0 and 1,  with a mean of  0.65, indicating that a significant portion of the population may have diabetes.
+
+Family History: The values are binary, limited to 0 and 1, with a mean of 0.491 indicating that nearly half of the observations report a family history of heart attack risk, and a standard deviation of 0.499981 which indicates that there is roughly equal proportions of individuals with and without family history.
+
+Smoking: The values are binary, limited to 0 and 1, with a mean of 0.894, The mean indicates a high prevalence of smoking within the dataset,the median being 1 confirms that at least half of the individuals in the dataset are smokers, indicating a skewed distribution towards smoking behavior, standard deviation being 0.3069 suggests variability in smoking status, but since the mean is close to 1, it indicates that most individuals in the dataset are smokers. The presence of non-smokers (0) is less common.
+
+Systolic BP: The values vary, with a maximum of 180 and a minimum of 90, with the mean being 134.875 which is very close to the median 135, suggesting that the distribution is likely symmetrical which indicates a balanced spread of values around the center (no significant outliers),the standard deviation being 26.434 is relatively large compared to the mean, indicating considerable variability in systolic BP observations (wide range of blood pressure levels).
+
+Diastolic BP: Diastolic BP values range from 60 to 110, with a mean of 85.23 that is slightly higher than the median 85, the standard deviation being 14.74 makes it significantly a portion of the mean,indicating some variability in the diastolic BP observations. 
+
+Heart Attack Risk: The values are binary, limited to 0 and 1, with a mean of 0.463 and a standard deviation of 0.498691 which suggests considerable variability in heart attack risk among the observations, with many individuals falling towards both ends of the risk spectrum.
