@@ -1,0 +1,29 @@
+data = {
+    "Attribute Name": [
+        "Patient ID", "Age", "Sex", "Cholesterol", "Systolic BP","Diastolic BP", "Heart Rate", "Diabetes", 
+        "Family History", "Smoking", "Diet", "Continent", "Heart Attack Risk"
+    ],
+    "Description": [
+        "Unique id of the patient", "Patient's age", "Gender of the patient", "Exam result of cholesterol", 
+        "Result of systolic blood pressure which measures the pressure in arteries when the heart contracts. ", 
+        "Result of diastolic blood pressure which measures the pressure in arteries between heartbeats when the heart is resting.",
+        "Number of heartbeats per minute, indicating cardiovascular health.",
+        "Indicates whether the patient has diabetes. Diabetes is a chronic health condition where the body is unable to properly regulate blood sugar levels", 
+        "Indicates if the patient has a family history of heart attacks.", 
+        "Indicates whether the patient smokes.", 
+        "Indicates the dietary habits of the patient, categorizing them into three types based on their nutrition and eating patterns: (Average) signifies a typical diet, (Healthy) indicates a focus on nutritious foods, and (Unhealthy) reflects poor dietary choices",
+        "Specifies the continent where the patient resides, providing geographical context for the individual's background.", 
+        " The class label, indicates whether the patient has experienced a heart attack "
+    ],
+    "Data Type": [
+        "Nominal", "Numeric", "Binary", "Numeric","Numeric", "Numeric", "Numeric", "Binary", 
+        "Binary", "Binary", "Nominal", "Nominal", "Binary"
+    ],
+    "Possible Values": [
+        "", "Range between 18-90", "Female, Male", "Range between 120-400", "Range between 90-180", "Range between 60-110","Range between 40-110", "0:No Diabetes, 1:Diabetes", 
+        "0:No family history ,1:family history", "0:Non-somker, 1:Smoker", '"Average", "Healthy", "Unhealthy"', 
+        '"Europe", "Africa", "Australia", "Asia", "South America", "North America"', "0: No heart attack ,1:had a Heart attack"
+    ]
+}
+g = pd.DataFrame(data)
+g.style.set_properties(**{'text-align': 'center'})
